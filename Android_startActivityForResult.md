@@ -18,7 +18,7 @@
 <activity android:name=".SecondActivity"
     android:launchMode="singleInstance" />
 ```
-启动方式：
+<br>启动方式：
 ```
     public void startForResult(View view) {
         new Handler().postDelayed(new Runnable() {
@@ -51,11 +51,11 @@ startActivityForResult对singleTop、singleTask、singleInstance模式都表现�
 查看栈信息：（以singleInstance为例）<br>
 startActivity一次：
 ![startActivity一次](https://user-gold-cdn.xitu.io/2018/2/4/1615faef89bc2e4a?w=800&h=356&f=jpeg&s=35232)
-startActivity多次：
+<br> startActivity多次：
 ![startActivity多次](https://user-gold-cdn.xitu.io/2018/2/4/1615faf8f325ce83?w=800&h=385&f=jpeg&s=34860)
-startActivityForResult一次：
+<br> startActivityForResult一次：
 ![startActivityForResult一次](https://user-gold-cdn.xitu.io/2018/2/4/1615fb038f44aa4f?w=800&h=288&f=jpeg&s=27017) 
-startActivityForResult多次：
+<br> startActivityForResult多次：
 ![startActivityForResult多次](https://user-gold-cdn.xitu.io/2018/2/4/1615fafcca1c9988?w=800&h=265&f=jpeg&s=28044) 
 
 ### 结果分析
