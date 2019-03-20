@@ -44,7 +44,7 @@ Lambda表达式的语法很简单：<br>
 `( 参数 ) -> { 表达式 }` <br>
 举例:<br>
 1、( ) -> System.out.println("Hello World")
-<br> 无参数时，`()`可以省略。<br>
+<br>
 2、System.out: :println <br>
 这种调用叫做方法引用，被引用方法的签名需要与函数接口签名匹配。<br>
 3、
